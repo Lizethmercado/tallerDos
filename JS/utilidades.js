@@ -1,6 +1,6 @@
-function createTable() {
-    var table = document.createElement("table");
-    table.setAttribute("border", "1");
+function crearTabla() {
+    var tabla = document.createElement("table");
+    tabla.setAttribute("border", "1");
 
     var rows = [
         [
@@ -51,8 +51,8 @@ function createTable() {
 
             row.appendChild(cell);
         }
-        table.appendChild(row);
+        tabla.appendChild(row);
     }
 
-    document.body.appendChild(table);
+    document.body.appendChild(tabla);
 }
